@@ -1,5 +1,5 @@
 module.exports = function(options) {
-  this.add({ role: 'hello', cmd: 'world' }, async function(input, reply) {
+  this.add({ cmd: 'hello-world:v1' }, async function(input, reply) {
     try {
       console.log({
         input: input

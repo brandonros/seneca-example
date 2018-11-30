@@ -19,8 +19,7 @@ var callService = function(parameters) {
 
 (async function() {
   var result = await callService({
-    role: 'hello',
-    cmd: 'world',
+    cmd: 'hello-world:v1',
     input: '123456'
   });
 
