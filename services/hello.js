@@ -5,7 +5,7 @@ module.exports = function(options) {
         input: input
       })
 
-      var result = { message: 'Hello, world!' };
+      var result = { message: 'Hello, world!4' };
 
       reply(null, result);
     } catch (err) {
